@@ -12,7 +12,7 @@
 7.ตัวเซนเซอร์แสง
 ### ศึกษาข้อมูลเบื้องต้น
 04 run example 4 https://youtu.be/nFqoZT26U5k <br> 
-code ของโปรแกรม 04_Inpt-Port : https://github.com/choompol-boonmee/lab63b/blob/master/examples/04_Input-Port/src/main.cpp
+code ของโปรแกรม 04_Input-Port : https://github.com/choompol-boonmee/lab63b/blob/master/examples/04_Input-Port/src/main.cpp
 ## วิธีทำ
 1.เอาอแดปเตอร์ต่อกับตัว USB to seria (ตัวอแดปเตอร์ที่ใช้ในการทดลองนี้มีการต่อกับ LED) <br>
 2.นำตัวmicrocontrollerต่อกับพอร์ท <br>
