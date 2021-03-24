@@ -12,7 +12,7 @@ run example 1 https://youtu.be/NLIUsWLEpmg <br />
 code 01_Serial-Monitor https://github.com/choompol-boonmee/lab63b/blob/master/examples/01_Serial-Monitor/src/main.cpp
 ## วิธีทำ
 1.เชื่อมต่อ microcontroller เข้ากับคอมพิวเตอร์ด้วยการต่อ USB ไปยัง Seria <br />
-2.เปิด cmd ซึ่งจากตัวอย่างอยู้ในโฟล์เดอร์ ใช้คำสั่ง cd pattani <br />
+2.เปิด cmd ใช้คำสั่ง cd pattani <br />
 <br />
 ![alt text](https://media.discordapp.net/attachments/663373978848591875/824215655830126602/112263053-3b73cc00-8ca1-11eb-9208-d6c6f034ab40.png) <br />
 3.พิมพ์คำสั่ง cd_Serial-Monitor ตามด้วย <br />
