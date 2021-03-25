@@ -1,7 +1,6 @@
 # การทดลองที่ 2 เรื่อง การเขียนโปรแกรมค้นหาไวไฟ
 ## วัตถุประสงค์
-1.ค้นหา wifi โดยใช้ microcontoller <br>
-2.ศึกษาข้อมูลในการรัน microcontroller
+ใช้ microcontroller สามารถหา wifi รอบๆได้
 ## อุปกรณ์ที่ใช้
 1.microcontroller (ESP01) <br>
 2.อุปกรณ์ต่อ USB-Serial <br> 
