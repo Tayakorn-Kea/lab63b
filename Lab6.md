@@ -12,9 +12,9 @@ src code ของโปรแกรม 06_Wifi-AP-Web-Server : https://github.c
 ## วิธีการทำทดลอง
 1.นำตัวไมโครคอนโทรเลอร์ <br>
 2.เข้าcommand prompt <br>
-3.เข้าตัวอย่างโปรแกรมจากโดยใช้พิมพ์คำสั่ง cd pattani ในหน้า command prompt <br>
-4.เลือกตัวอย่างโปรแกรมคำสั่ง cd 06_Wifi-AP-Web-Server ตามด้วยคำสั่ง pwd <br>
-5.พิมพ์คำสั่ง vi src/main.cpp เมื่อกด Enter จะขึ้นโค้ดดังนี้ <br>
+3.พิมพ์คำสั่ง cd pattani <br>
+4.เลือกโปรแกรมคำสั่ง cd 06_Wifi-AP-Web-Server ตามด้วยคำสั่ง pwd <br>
+5.พิมพ์คำสั่ง vi src/main.cpp เมื่อกด Enter จะขึ้นโค้ด <br>
 ![image](https://user-images.githubusercontent.com/80882373/112315576-d8a02600-8cdc-11eb-994f-0e0d43876018.png) <br>
 จากโค้ดนี้จะเห็นว่าเราต้องการให้ ESP 01 มีไวไฟในตัวเอง โดยจะกำหนดชื่อ wifi และ password ก่อน ที่จะปล่อยให้เครื่องอื่น connect และมีการสร้าง IPAddress,gateway,subnet และ เตรียมเว็บเซิร์ฟเวอร์ <br>
 <br>
