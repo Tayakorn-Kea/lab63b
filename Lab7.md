@@ -1,9 +1,29 @@
-##  การทดลองที่ 7 การใช้Microcontrollerสร้าง Wifi และ Web Server จากนั้นควบคุมการเปิด-ปิดไฟLEDด้วยปุ่ม Yes-No ใน Web server <br>
+# การทดลองที่ 7 การใช้Microcontrollerสร้าง Wifi และ Web Server จากนั้นควบคุมการเปิด-ปิดไฟLEDด้วยปุ่ม Yes-No ใน Web server <br>
+## วัตถุประสงค์
+1.เพื่อเข้าใจ code ที่ใช้เขียนลง microcontroller <br>
+2.เพื่อเข้าใจ code ที่ใช้เขียนใน web server แบบคร่าวๆ <br>
+3.สามารถนำ code จากกาทดลอง1-6 ไปต่อยอดได้ 
+## อุปกร์ที่ใช้ทดลอง
+1.computer <br>
+2.microcontroller ESP_8622 <br>
+3.หลอดไฟ LED <br>
+4.USB ไว้เชื่อมต่อกับ Serial
+## ศึกษาข้อมูลเพิ่มเติม
+* https://github.com/choompol-boonmee/lab63b/tree/master/examples
+## วิธีการทำการทดลอง
+1.เชื่อมต่อ Microcontroller กับ computer <br>
+2.เปิด commandprompt <br>
+3.นำ Code การสร้าง wifi และ Web server ด้านล่างใส่ลง microcontroller <br>
+
 ```javascript
 #include <ESP8266WiFi.h>
 
-const char* ssid = "tayakorn";
+const char* ssid = "lab7lab7lab7";
 const char* password = "00000000";
+
+IPAddress local_ip(172, 20, 10, 14);
+IPAddress gateway(172, 20, 10, 1);
+IPAddress subnet(255, 255, 255, 244);
 
 WiFiServer server(80);
 
@@ -21,7 +41,7 @@ pinMode(output4, OUTPUT);
 digitalWrite(output5, LOW);
 digitalWrite(output4, LOW);
 WiFi.mode(WIFI_AP); 
-WiFi.softAP("tayakorn"); 
+WiFi.softAP("lab7lab7lab7"); 
 server.begin();
 }
 
