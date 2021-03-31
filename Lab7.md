@@ -2,8 +2,8 @@
 ```javascript
 #include <ESP8266WiFi.h>
 
-const char* ssid = "ESP_8266";
-const char* password = "123456789";
+const char* ssid = "tayakorn";
+const char* password = "00000000";
 
 WiFiServer server(80);
 
@@ -21,7 +21,7 @@ pinMode(output4, OUTPUT);
 digitalWrite(output5, LOW);
 digitalWrite(output4, LOW);
 WiFi.mode(WIFI_AP); 
-WiFi.softAP("ESP_8266"); 
+WiFi.softAP("tayakorn"); 
 server.begin();
 }
 
@@ -63,7 +63,7 @@ client.println(".button { background-color: #195B6A; border: none; color: white;
 client.println("text-decoration: none; font-size: 30px; margin: 2px; cursor: pointer;}");
 client.println(".button2 {background-color: #77878A;}</style></head>");
 
-client.println("<body><h1>เว็บเซิร์ฟเวอร์</h1>");
+client.println("<body><h1>เว็บเซิร์ฟเวอร์ ใช้งานได้เด้อ</h1>");
 
 client.println("<p>GPIO 5 - State " + output5State + "</p>"); 
 if (output5State=="off") {
